@@ -3,8 +3,11 @@ layout: page
 title: About
 permalink: /about/
 ---
-I work in finance and live in NYC.
+Hi! I'm Sydney.
 
-I like logical thinking. I studied math, economics and philosophy at the University of Arizona, where I was also a FLAS Fellow in Arabic.
+In general, I like thinking about markets of all sorts and how they work. I started my career at the Federal Reserve Bank of New York where I worked in a macro-finance research group and I've since moved to a research group at a hedge fund.
 
-Before I started college, I worked on a few organic farms around the northeastern U.S. and learned a lot about growing (and cooking and eating) good food.
+In a past life, I worked on several organic farms around the northeastern U.S. before starting college. I studied mathematics, economics and philosophy at the University of Arizona, where I was also awarded a FLAS Fellowship to study Arabic.
+
+I wrote a little here on why I think having personal websites is useful and how I think about structuring mine.
+Test. 
