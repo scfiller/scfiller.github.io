@@ -10,7 +10,7 @@
 
 # - default: menu_about
 #  url: 'about'
-- title: 'home'
+- title: 'about'
   url: ''
 
 - title: 'bookshelf'
@@ -18,3 +18,9 @@
 
 - title: 'blog'
   url: 'blog'
+
+- title: 'cooking'
+  url: 'cooking'
+
+- title: 'diy'
+  url: 'diy'
