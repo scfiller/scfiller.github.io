@@ -1,5 +1,5 @@
 en:
-  menu_index: 'Index'
+  menu_index: 'index'
   menu_category: 'Categories'
   menu_about: 'About'
   paginator_previous: 'Previous'
@@ -48,7 +48,7 @@ es:
   post_next: 'Siguiente: '
   post_author: 'El autor: '
   categories_title: 'Categorías'
-  
+
 it:
   menu_index: 'Indice'
   menu_category: 'Categorie'
