@@ -1,9 +1,7 @@
 ---
 layout: post
-title:  "Test post"
-date:   2022-09-14
-last_modified_at: 2022-09-14
+title:  "Personal Website Philosophy"
+date:   2022-11-23
+last_modified_at: 2022-11-23
 categories: [Posts]
 ---
-
-Testing!
