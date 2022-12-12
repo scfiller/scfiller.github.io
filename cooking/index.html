@@ -1,0 +1,74 @@
+---
+title: cooking
+layout: page
+---
+<!DOCTYPE html>
+<html>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+figcaption{
+    text-align: center;
+}
+</style>
+<body>
+
+<!-- Photo Grid -->
+<div class="row">
+  <div class="column">
+  <a href="recipes/eggs"><img src="img/eggs.png" style="width:100%"></a>
+  <figcaption class="figure-caption text-center">Indian Eggs</figcaption>
+
+  <a href="recipes/malay-curry"><img src="img/malay_curry.png" style="width:100%"></a>
+  <figcaption class="figure-caption text-center">Malay Curry</figcaption>
+
+  <a href="recipes/dumplings"><img src="img/dumplings.png" style="width:100%"></a>
+  <figcaption class="figure-caption text-center">Vegan Dumplings</figcaption>
+  </div>
+  <div class="column">
+
+  <a href="recipes/roti"><img src="img/roti.png" style="width:100%"></a>
+  <figcaption class="figure-caption text-center">Roti Canai</figcaption>
+
+  <a href="recipes/pasta"><img src="img/pasta.png" style="width:100%"></a>
+  <figcaption class="figure-caption text-center">Fennel Orechiette</figcaption>
+
+  <a href="recipes/bing"><img src="img/bing.png" style="width:100%"></a>
+  <figcaption class="figure-caption text-center">Bing with Whipped Ricotta and
+  Chili Oil</figcaption>
+
+  <!-- add new items here -->
+  </div>
+</div>
+
+</body>
+</html>
