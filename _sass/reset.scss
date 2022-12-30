@@ -4,17 +4,17 @@
 @charset "utf-8";
 @font-face {
     font-family: 'Syd';
-    src: url('Sydney_font_1-Regular.ttf') format('truetype');
+    src: asset_url("../fonts/Sydney_font_1-Regular.ttf") format('truetype');
 }
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Syd','Cormorant Garamond', sans-serif;
+  font-family: 'Cormorant Garamond','Syd',sans-serif;
 }
 
 html,
 body {
-  font-family: 'Syd','Cormorant Garamond', sans-serif;
+  font-family: 'Cormorant Garamond', sans-serif;
   height: 100%;
 }
 
