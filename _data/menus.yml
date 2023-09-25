@@ -10,10 +10,10 @@
 
 # - default: menu_about
 #  url: 'about'
-- title: 'home'
-  url: ''
+# - title: 'home'
+# url: ''
 - title: 'about'
-  url: 'about'
+  url: ''
 
 - title: 'bookshelf'
   url: 'bookshelf'
@@ -24,5 +24,8 @@
 - title: 'cooking'
   url: 'cooking'
 
-- title: 'diy'
-  url: 'diy'
+# - title: 'diy'
+#  url: 'diy'
+
+- title: 'garden'
+  url: 'garden'
