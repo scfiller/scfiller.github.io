@@ -5,24 +5,14 @@ layout: page
 <!DOCTYPE html>
 <html>
 <style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial;
-}
-
-.header {
-  text-align: center;
-  padding: 32px;
-}
-
-/* Create two equal columns that floats next to each other */
+  .container-main {
+    width: 100%;
+    min-height: calc(100vh - 159px);
+  }
+/* Create two equal columns that float next to each other */
 .column {
   float: left;
-  width: 50%;
+  width: 30%;
   padding: 10px;
 }
 
@@ -36,9 +26,20 @@ body {
   display: table;
   clear: both;
 }
+
 figcaption{
     text-align: center;
 }
+
+.image-container a img {
+  transition: transform 0.3s;
+}
+
+.image-container a img:hover {
+  filter: grayscale(100%);
+}
+
+
 </style>
 <body>
 
@@ -56,12 +57,8 @@ figcaption{
 
   <a href="recipes/eggs"><img src="img/eggs.png" style="width:100%"></a>
   <figcaption class="figure-caption text-center">Indian Eggs</figcaption>
+  <!-- add new items here -->
 
-  <a href="recipes/malay-curry"><img src="img/malay_curry.png" style="width:100%"></a>
-  <figcaption class="figure-caption text-center">Malay Curry</figcaption>
-
-  <a href="recipes/dumplings"><img src="img/dumplings.png" style="width:100%"></a>
-  <figcaption class="figure-caption text-center">Vegan Dumplings</figcaption>
   </div>
 
 
@@ -77,6 +74,15 @@ figcaption{
 
   <a href="recipes/pasta"><img src="img/pasta.png" style="width:100%"></a>
   <figcaption class="figure-caption text-center">Fennel Orechiette</figcaption>
+  <!-- add new items here -->
+  </div>
+
+  <div class="column">
+  <a href="recipes/malay-curry"><img src="img/malay_curry.png" style="width:100%"></a>
+  <figcaption class="figure-caption text-center">Malay Curry</figcaption>
+
+  <a href="recipes/dumplings"><img src="img/dumplings.png" style="width:100%"></a>
+  <figcaption class="figure-caption text-center">Vegan Dumplings</figcaption>
 
   <a href="recipes/bread"><img src="img/bread.png" style="width:100%"></a>
   <figcaption class="figure-caption text-center">Bread</figcaption>
@@ -84,9 +90,9 @@ figcaption{
   <a href="recipes/bing"><img src="img/bing.png" style="width:100%"></a>
   <figcaption class="figure-caption text-center">Bing with Whipped Ricotta and
   Chili Oil</figcaption>
-
   <!-- add new items here -->
   </div>
+
 </div>
 
 </body>

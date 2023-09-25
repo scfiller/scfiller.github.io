@@ -15,6 +15,7 @@ module GitHubPages
     DEFAULTS = {
       "jailed" => false,
       "plugins" => GitHubPages::Plugins::DEFAULT_PLUGINS,
+      "plugins_dir" => "_plugins",
       "future" => true,
       "theme" => "jekyll-theme-primer",
       "markdown" => "kramdown",
@@ -49,7 +50,7 @@ module GitHubPages
     OVERRIDES = {
       "lsi" => false,
       "safe" => true,
-      "plugins_dir" => SecureRandom.hex,
+      "plugins_dir" => "_plugins",
       "whitelist" => GitHubPages::Plugins::PLUGIN_WHITELIST,
       "highlighter" => "rouge",
       "kramdown" => {

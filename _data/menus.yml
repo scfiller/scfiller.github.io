@@ -18,8 +18,8 @@
 - title: 'bookshelf'
   url: 'bookshelf'
 
-# - title: 'blog'
-#   url: 'blog'
+- title: 'blog'
+  url: 'blog'
 
 - title: 'cooking'
   url: 'cooking'

@@ -2,7 +2,6 @@
 
 .container-wrapper {
   width: 100%;
-  margin: 0 auto;
   max-width: 800px;
 }
 
@@ -14,9 +13,7 @@
 }
 
 .container-main {
-  width: 95%;
-  margin: 10px auto;
-  overflow: hidden;
+  width: 100%;
   min-height: calc(100vh - 159px);
 }
 
