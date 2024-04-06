@@ -1,28 +1,54 @@
 ---
-title: bookshelf
-layout: page
+title: "bookshelf"
+layout: default
+permalink: /bookshelf/
 ---
 
-<i> updated March 4 2022 </i>
+**last updated January 19, 2024**
 
-I've highlighted particularly excellent books in blue.
+I’m currently reading **Septology** by Jon Fosse and **The Pilgrim's Progress** by John Bunyan.
 
-<h3> 2022 Reading List </h3>
+Below is a list of books I’ve really enjoyed or that made an impact on me. I’ll update this occasionally (but I’m bad at tracking my reading)
 
-<ol>
-<li><a href="https://www.alibris.com/The-Money-Illusion-Market-Monetarism-the-Great-Recession-and-the-Future-of-Monetary-Policy-Scott-Sumner/book/49326256?matches=6">The Money Illusion: Market Monetarism, the Great Recession, and the Future of Monetary Policy</a></li>
-<li><a href="https://www.alibris.com/Laurus-The-International-Bestseller-Eugene-Vodolazkin/book/50713781?matches=58">Laurus</a></li>
-<li><a href="https://www.alibris.com/booksearch?mtype=B&keyword=combating+inequality+rethinking+the+government%27s+role&hs.x=0&hs.y=0&hs=Submit">Combating Inequality: Rethinking the Government's Role</a></li>
-<li><a href="https://www.alibris.com/In-the-Shadow-of-Justice-Postwar-Liberalism-and-the-Remaking-of-Political-Philosophy-Katrina-Forrester/book/43565233?matches=21">In the Shadow of Justice: Postwar Liberalism and the Remaking of Political Philosophy</a></li>
-<li><a href="https://www.alibris.com/The-Voltage-Effect-How-to-Make-Good-Ideas-Great-and-Great-Ideas-Scale-John-a-List/book/50814649?matches=43">The Voltage Effect: How to Make Good Ideas Great and Great Ideas Scale</a></li>
-<li><a href="https://www.alibris.com/Finite-and-Infinite-Games-James-Carse/book/2327667?matches=56">☆Finite and Infinite Games</a></li>
-<li><a href="https://www.alibris.com/booksearch?mtype=B&keyword=The+Journey+of+Humanity%3A+The+Origins+of+Wealth+and+Inequality&hs.x=0&hs.y=0&hs=Submit">The Journey of Humanity: The Origins of Wealth and Inequality</a></li>
-<li><a href="https://www.alibris.com/The-Invention-of-Power-Popes-Kings-and-the-Birth-of-the-West-Bruce-Bueno-de-Mesquita/book/50726023?matches=62">The Invention of Power: Popes, Kings and the Birth of the West</a></li>
-</ol>
-<h3> Past Reading </h3>
-<i>(This list is very incomplete! I'm slowly adding past reading)</i>
+### Economics/Finance
+1. Big Ideas in Macroeconomics by Karthik Artheya
+2. The Worldly Philosophers by Robert Heilbronner
+3. Development as Freedom by Amartya Sen
+4. Slouching Towards Utopia: An Economic History of the 20th Century by Brad deLong
+5. Expected Returns by Antti Ilmanen
+6. Secrets of the Temple by William Greider
 
-<ol>
-<li><a href="https://www.alibris.com/The-Technology-Trap-Capital-Labor-and-Power-in-the-Age-of-Automation-Carl-Benedikt-Frey/book/42581894?matches=103">☆The Technology Trap: Capital, Labor and Power in the Age of Automation</a></li>
-<li><a href="https://www.alibris.com/Suttree-Cormac-McCarthy/book/6487064">☆Suttree</a></li>
-</ol>
+### Philosophy
+1. Anarchy, State and Utopia by Robert Nozick
+2. Strangers Drowning by Larissa MacFarquhuar
+3. Reasons and Persons by Derek Parfit
+4. Animal Liberation by Peter Singer (1975)
+5. Confessions by St Augustine
+6. The Epistle of Forgiveness by Abul Ala al-Ma’arri
+
+### Fiction
+1. Book of the New Sun by Gene Wolfe
+2. Roadside Picnic by Arkady Strugatsky
+3. A Canticle for Leibowitz by Walter Miller
+4. Unsong by Scott Alexander
+5. All Quiet on the Western Front by Erich Remarque
+6. The Great Divorce by C.S. Lewis
+7. Diaspora by Greg Egan
+8. Laurus by Eugene Vodolazkin
+9. Days of Abandonment by Elena Ferrante
+10. Brideshead Revisted by Evelyn Waugh
+
+### Nonfiction
+1. A Distant Mirror: A Calamitous 14th Century by Barbara Tuchman
+2. A Concise History of the Catholic Church by Thomas Bokenkotter
+3. Bach: Music in the Castle of Heaven by John Eliot Gardner
+
+### Cookbooks
+1. Xi’an Famous Foods
+2. Dishoom
+3. Flour Water Salt Yeast
+4. Bras: A Taste of Aubrac
+5. Bien Cuit
+6. Jerusalem
+7. Plenty
+8. The Nordic Baking Book

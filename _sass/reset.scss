@@ -75,9 +75,13 @@ p .subtitle { font-style: italic;
 p, ol, ul { font-size: 1.4rem; }
 
 p, li { line-height: 2rem;
-        margin-top: 1.4rem;
         padding-right: 2rem; //removed because,  why?
         vertical-align: baseline; }
+
+// p, li { line-height: 2rem;
+//         margin-top: 1.4rem;
+//         padding-right: 2rem; //removed because,  why?
+//         vertical-align: baseline; }
 
 figure, figure img.maincolumn { max-width: 100%;
          -webkit-margin-start: 0;
@@ -220,6 +224,7 @@ body.full-width, .content-listing, ul.content-listing li.listing{ width: 90%;
        padding: 0% 5%;
 
 }
+
 .full-width article p{
   width: 90%;
 }
@@ -246,6 +251,7 @@ li.listing {
   & p{
     width: 100%
   }
+  padding-bottom: 5px;
 }
 
 

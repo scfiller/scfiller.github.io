@@ -2,6 +2,10 @@
 title: Tomato Chili Jam
 layout: page
 ---
+
+# tomato chili jam
+{% marginfigure 'mf-id-gnocchi' "..\cooking\img\tomato-chili-jam.png"%}
+
 ## Ingredients
 - 800g tomatoes, either fresh and roughly chopped (preferred) or canned
 - 60g fresh ginger, grated
@@ -21,4 +25,4 @@ layout: page
 
 *I think this jam might benefit from being strained through a fine sieve, but I haven't tried it yet.
 
-**Xanthan gum isn't necessary for a great jam, but I had some lying around and tried experimenting. I'll probably experiment with pectin or another thickener when I make this jam again. 
+**Xanthan gum isn't necessary for a great jam, but I had some lying around and tried experimenting. I'll probably experiment with pectin or another thickener when I make this jam again.

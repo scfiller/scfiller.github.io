@@ -1,5 +1,20 @@
 ---
-title: temp-name
-layout: page
+title: template
+layout: default
 ---
-## temp-name
+
+# recipe title
+{% marginfigure 'mf-id-gnocchi' "..\cooking\img\pumpkin_gnocchi.png"%}
+## Ingredients
+
+### product 1
+- Ingredients
+
+
+### product 2
+- Ingredients
+
+## Directions
+
+1. test
+2. test
