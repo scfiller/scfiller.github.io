@@ -82,9 +82,8 @@ p, ol, ul {
 }
 
 p, li {
-  line-height: 2rem;
-  margin-top: 1.4rem;
-  padding-right: 2rem;
+  line-height: 1.1rem;
+  padding-right: 1.1rem;
   vertical-align: baseline;
 }
 
@@ -345,7 +344,7 @@ body.full-width, .content-listing, ul.content-listing li.listing {
 ul.content-listing .smaller {
   margin-left: auto;
   margin-right: auto;
-  padding: 20% 0%;
+  padding: 0% 0%;
   text-align: right;
 }
 
@@ -415,7 +414,7 @@ li.listing p {
 
 li.listing:last-of-type {
   border-bottom: none;
-  margin-bottom: 1.4rem;
+  margin-bottom: 1.1rem;
 }
 
 li.listing h3.new {

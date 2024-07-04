@@ -1,5 +1,3 @@
-@charset "utf-8";
-
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;1,500&display=swap');
 @charset "utf-8";
 @font-face {
@@ -40,14 +38,14 @@ blockquote {
 }
 
 h1 { font-weight: 400;
-     margin-top: 1.568rem;
-     margin-bottom: 1.568rem;
+     margin-top: 1.3rem;
+     margin-bottom: 1.3rem;
      font-size: 2.5rem;
      line-height: 0.784; }
 
 h2 { font-style: italic;
      font-weight: 400;
-     margin-top: 1.866666666666667rem;
+     margin-top: 1.3rem;
      margin-bottom: 0;
      font-size: 2.1rem;
      line-height: 0.933333333333333; }
@@ -55,7 +53,7 @@ h2 { font-style: italic;
 h3 { font-style: italic;
      font-weight: 400;
      font-size: 1.8rem;
-     margin-top: 2.1777777777777778rem;
+     margin-top: 1.3rem;
      margin-bottom: 0;
      line-height: 1.08888888888889; }
 
@@ -63,25 +61,26 @@ hr {
   margin: 10px;
   border: 1px solid #eee;
 }
+p { font-size: 1rem;
+    line-height: 1rem;
+    vertical-align: baseline; }
 
 p .subtitle { font-style: italic;
-             margin-top: 2.1777777777777778rem;
-             margin-bottom: 2.1777777777777778rem;
-             font-size: 1.8rem;
+             margin-top: 1.1rem;
+             margin-bottom: 1.1rem;
+             font-size: 1rem;
              display: block;
-             line-height: 1.08888888888889; }
+           }
 
+ol, ul { font-size: 1.4rem; }
 
-p, ol, ul { font-size: 1.4rem; }
-
-p, li { line-height: 2rem;
-        padding-right: 2rem; //removed because,  why?
+li { line-height: 1rem;
+        padding-right: 0; //removed because,  why?
         vertical-align: baseline; }
 
-// p, li { line-height: 2rem;
-//         margin-top: 1.4rem;
-//         padding-right: 2rem; //removed because,  why?
-//         vertical-align: baseline; }
+li {
+          margin-bottom: 5rem; /* Adjust the bottom margin as needed */
+}
 
 figure, figure img.maincolumn { max-width: 100%;
          -webkit-margin-start: 0;
@@ -153,7 +152,7 @@ pre { width: 52.5%; //, pre code, p pre code are both selectors in tufte.css - t
            padding-left: 2.5%;
            overflow-x: auto; }
 
-.fullwidth, li.listing div{ max-width: 90%; }
+// .fullwidth, li.listing div{ max-width: 90%; }
 
 .full-width { .sidenote, .sidenote-number, .marginnote { display: none; } }
 
@@ -221,7 +220,7 @@ a.reversefootnote {
 body.full-width, .content-listing, ul.content-listing li.listing{ width: 90%;
        margin-left: auto;
        margin-right: auto;
-       padding: 0% 5%;
+       padding: 0% 0%;
 
 }
 
@@ -251,7 +250,7 @@ li.listing {
   & p{
     width: 100%
   }
-  padding-bottom: 5px;
+  padding-bottom: 0px;
 }
 
 
@@ -263,16 +262,16 @@ li.listing h3.new {
   text-transform: uppercase;
   font-style: normal;
 }
-hr.slender {
-    border: 0;
-    height: 1px;
-    margin-top: 1.4rem;
-    margin-bottom:1.4rem;
-    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-}
+// hr.slender {
+//     border: 0;
+//     height: 1px;
+//     margin-top: 1.4rem;
+//     margin-bottom:1.4rem;
+//     background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+//     background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+//     background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+//     background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+// }
 // End of front listing page stuff
 // Adds hover functionality
 .hide {
