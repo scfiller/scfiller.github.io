@@ -1,5 +1,5 @@
 ---
-title: malay-curry
+title: bing
 layout: page
 ---
 malay-curry

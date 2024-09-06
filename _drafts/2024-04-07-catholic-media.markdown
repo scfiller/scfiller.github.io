@@ -21,7 +21,6 @@ Regardless, I find the central themes of Christianity to be very compelling:
 ## science fiction
 1. Book of the New Sun by Gene Wolfe
 2. Roadside Picnic by the Strugatsky Brothers
-3.
 
 ## historical fiction
 1. Laurus by Eugeune Vodolazkin

@@ -1,43 +1,44 @@
 ---
 layout: post
-title:  "catholic media"
-date:   2024-04-07
-last_modified_at: 2024-04-07
+title:  "how i built this website"
+date:   2024-04-29
+last_modified_at: 2024-04-29
 categories: [all]
 ---
+I build this website using Jekyll and the Jekyll Ghost theme as a base.
+I utilized the Liquid tags written for this Edward Tufte website to add in
+margin notes and images.
 
-...
-I'm overwhelmingly drawn to movies, books, and imagery that explores them,
-especially Catholicism and Orthodoxy.
+I host this website for free on Github pages, which unfortunately doesn't
+play nicely with many Jekyll plugins. I use this shell script (which I found on Reddit but haven't been able to relocate since) to build
+the website locally and then push to GH pages to avoid plugin incompatibility.
 
-Regardless, I find the central themes of Christianity to be very compelling:
-- how do we make sense of living in a fallen world?
-- what makes someone worthy of unmerited grace or forgiveness?
-- how can immense evil and goodness coexist in humanity, or even the same person?
-- can humans ever be truly g
+```
+#! /bin/bash
 
+# -- Build with baseurl, '/ntest'
+# bundle exec jekyll build --baseurl '/ntest'
 
-# books
-## science fiction
-1. Book of the New Sun by Gene Wolfe
-2. Roadside Picnic by the Strugatsky Brothers
-3.
+# -- Build with no baseurl
+bundle exec jekyll build
 
-## historical fiction
-1. Laurus by Eugeune Vodolazkin
-2. Kristin Landvr
+# -- Get rid of any existing local gh-pages
+git branch -D gh-pages
 
-## fiction
-1. Septology by Jon Fosse
+# -- Create a new gh-pages branch not based on any existing branch
+git checkout --orphan gh-pages
 
-## nonfiction
-1. A Concise History of the Catholic Church
-2. Unapologetic
-3. The Gospels by Leo Tolstoy (**)
-4. Knowledge and Christian Belief by Alvin Plantinga
+# -- Delete the junk that git puts into this new branch
+# -- ( see git-checkout --orphan documentation for details. )
+git rm -rf .
 
+# -- add, commit, and push contents from _site to gh-pages branch.
+git --work-tree _site/ add .
+git --work-tree _site/ commit -m 'gh-pages commit' .
+git --work-tree _site/ push -f origin gh-pages
 
-# films
-## horror
-1. Hagazussa (2019)
-2. The Vvitch (xxxx)
+## -- go back to working on master branch and clean up.
+git checkout -f master
+git branch -D gh-pages
+rm -rf _site
+```
