@@ -6,7 +6,7 @@ permalink: /bookshelf/
 
 **last updated January 19, 2024**
 
-I’m currently reading **Septology** by Jon Fosse and **The Pilgrim's Progress** by John Bunyan.
+I’m currently reading **The Pilgrim's Progress** by John Bunyan.
 
 Below is a list of books I’ve really enjoyed or that made an impact on me.
 
@@ -35,7 +35,7 @@ Below is a list of books I’ve really enjoyed or that made an impact on me.
 2. Strangers Drowning by Larissa MacFarquhuar
 3. Reasons and Persons by Derek Parfit
 4. Animal Liberation by Peter Singer (1975)
-5. Confessions by St Augustine
+5. Turning East: Contemporary Philosophers and the Ancient Christian Faith
 
 ## economics/finance
 1. Big Ideas in Macroeconomics by Karthik Artheya

@@ -196,7 +196,26 @@ figcaption{
 h2 {
   text-align: center; /* Center-align the text inside the h2 */
 }
+.in-development {
+  filter: grayscale(100%);
+}
 
+.development-label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+/* Make the parent <a> tag position relative for absolute positioning of the label */
+  a.dev-recipe {
+  position: relative;
+  display: inline-block;
+}
 
 </style>
 <body>
@@ -206,7 +225,7 @@ h2 {
   <h2>top recipes</h2>
   <div class="recipe-links">
     <a href="recipes/hand-pulled-noodles"><img src="img/hand-pulled-noodles.png" style="width:100%"></a>
-    <figcaption class="figure-caption text-center">hand pulled noodles</figcaption>
+    <figcaption class="figure-caption text-center">hand pulled noodles 🌱</figcaption>
 
     <a href="recipes/tomato-chili-jam"><img src="img/tomato-chili-jam.png" style="width:100%"></a>
     <figcaption class="figure-caption text-center">tomato chili jam</figcaption>
@@ -224,42 +243,74 @@ h2 {
   <a href="recipes/pumpkin-gnocchi"><img src="img/pumpkin_gnocchi.png" style="width:100%"></a>
   <figcaption class="figure-caption text-center">pumpkin gnocchi</figcaption>
 
-  <a href="recipes/dan-bing"><img src="img/dan-bing.png" style="width:100%"></a>
-  <figcaption class="figure-caption text-center">dan bing</figcaption>
+  <a href="recipes/dan-bing" class="dev-recipe">
+    <img src="img/dan-bing.png" class="in-development" style="width:100%">
+    <span class="development-label">working on it :)</span>
+  </a>
+  <figcaption class="figure-caption text-center">dan bing 🌱</figcaption>
 
-  <a href="recipes/eggplant"><img src="img/thai-curry.png" style="width:100%"></a>
-  <figcaption class="figure-caption text-center">coconut curry</figcaption>
+  <a href="recipes/eggplant" class="dev-recipe">
+    <img src="img/thai-curry.png" class="in-development" style="width:100%">
+    <span class="development-label">working on it :)</span>
+    </a>
+  <figcaption class="figure-caption text-center">coconut curry 🌱</figcaption>
 
-  <a href="recipes/eggplant"><img src="img/eggplant_done.png" style="width:100%"></a>
-  <figcaption class="figure-caption text-center">eggplant curry</figcaption>
+  <a href="recipes/eggplant" class="dev-recipe">
+    <img src="img/eggplant_done.png" class="in-development" style="width:100%">
+    <span class="development-label">working on it :)</span>
+  </a>
+  <figcaption class="figure-caption text-center">eggplant curry 🌱</figcaption>
 
-  <a href="recipes/muhammara"><img src="img/muhammarat_done.png" style="width:100%"></a>
-  <figcaption class="figure-caption text-center">muhammara</figcaption>
+  <a href="recipes/muhammara" class="dev-recipe">
+    <img src="img/muhammarat_done.png" class="in-development" style="width:100%">
+    <span class="development-label">working on it :)</span>
+  </a>
+  <figcaption class="figure-caption text-center">muhammara 🌱</figcaption>
 
-  <a href="recipes/roti"><img src="img/fried-tofu.png" style="width:100%"></a>
-  <figcaption class="figure-caption text-center">fried tofu</figcaption>
+  <a href="recipes/roti" class="dev-recipe">
+    <img src="img/fried-tofu.png" class="in-development" style="width:100%">
+    <span class="development-label">working on it :)</span>
+  </a>
+  <figcaption class="figure-caption text-center">fried tofu 🌱</figcaption>
 
 
   </div>
 
   <div class="column">
 
-  <a href="recipes/eggplant"><img src="img/dan-dan-noodles.png" style="width:100%"></a>
+  <a href="recipes/eggplant" class="dev-recipe">
+    <img src="img/dan-dan-noodles.png" class="in-development" style="width:100%">
+    <span class="development-label">working on it :)</span>
+  </a>
   <figcaption class="figure-caption text-center">dan dan noodles</figcaption>
 
-  <a href="recipes/eggplant"><img src="img/chili-garlic.png" style="width:100%"></a>
+  <a href="recipes/eggplant" class="dev-recipe">
+    <img src="img/chili-garlic.png" class="in-development" style="width:100%">
+    <span class="development-label">working on it :)</span>
+  </a>
   <figcaption class="figure-caption text-center">chili garlic noodles</figcaption>
 
-  <a href="recipes/roti"><img src="img/falafel.png" style="width:100%"></a>
+  <a href="recipes/roti" class="dev-recipe">
+    <img src="img/falafel.png" class="in-development" style="width:100%">
+    <span class="development-label">working on it :)</span>
+  </a>
   <figcaption class="figure-caption text-center">falafel</figcaption>
 
-  <a href="recipes/okra-done"><img src="img/okra-done.png" style="width:100%"></a>
+  <a href="recipes/okra-done" class="dev-recipe">
+    <img src="img/okra-done.png" class="in-development" style="width:100%">
+    <span class="development-label">working on it :)</span>
+  </a>
   <figcaption class="figure-caption text-center">fried spiced okra</figcaption>
 
-  <a href="recipes/pasta"><img src="img/pasta.png" style="width:100%"></a>
-  <figcaption class="figure-caption text-center">fennel orechiette</figcaption>
+  <a href="recipes/fennel-orecchiette">
+    <img src="img/pasta.png" style="width:100%">
+  </a>
+  <figcaption class="figure-caption text-center">fennel orecchiette</figcaption>
 
-  <a href="recipes/dumplings"><img src="img/dumplings.png" style="width:100%"></a>
+  <a href="recipes/dumplings" class="dev-recipe">
+    <img src="img/dumplings.png" class="in-development"  style="width:100%">
+    <span class="development-label">working on it :)</span>
+  </a>
   <figcaption class="figure-caption text-center">dumplings</figcaption>
 
   <!-- add new items here -->
@@ -271,23 +322,41 @@ h2 {
   <figcaption class="figure-caption text-center">Red Curry</figcaption>
   -->
 
-  <a href="recipes/roti"><img src="img/spring-rolls.png" style="width:100%"></a>
+  <a href="recipes/roti" class="dev-recipe">
+    <img src="img/spring-rolls.png" class="in-development" style="width:100%">
+    <span class="development-label">working on it :)</span>
+  </a>
   <figcaption class="figure-caption text-center">spring rolls w/ peanut tamarind
-    sauce</figcaption>
+    sauce 🌱</figcaption>
 
-  <a href="recipes/bread"><img src="img/tahini-squash.png" style="width:100%"></a>
-  <figcaption class="figure-caption text-center">tahini-squash</figcaption>
+  <a href="recipes/bread" class="dev-recipe">
+    <img src="img/tahini-squash.png" class="in-development" style="width:100%">
+    <span class="development-label">working on it :)</span>
+  </a>
+  <figcaption class="figure-caption text-center">tahini squash 🌱</figcaption>
 
-  <a href="recipes/roti"><img src="img/fried-tofu.png" style="width:100%"></a>
-  <figcaption class="figure-caption text-center">fried tofu</figcaption>
+  <a href="recipes/roti" class="dev-recipe">
+    <img src="img/fried-tofu.png" class="in-development" style="width:100%">
+    <span class="development-label">working on it :)</span>
+  </a>
+  <figcaption class="figure-caption text-center">fried tofu 🌱</figcaption>
 
-  <a href="recipes/bread"><img src="img/bread.png" style="width:100%"></a>
-  <figcaption class="figure-caption text-center">bread</figcaption>
+  <a href="recipes/bread" class="dev-recipe">
+    <img src="img/bread.png" class="in-development" style="width:100%">
+    <span class="development-label">working on it :)</span>
+    </a>
+  <figcaption class="figure-caption text-center">bread 🌱</figcaption>
 
-  <a href="recipes/eggs"><img src="img/eggs.png" style="width:100%"></a>
+  <a href="recipes/eggs" class="dev-recipe">
+    <img src="img/eggs.png" class="in-development" style="width:100%">
+    <span class="development-label">working on it :)</span>
+  </a>
   <figcaption class="figure-caption text-center">eggs w/ chili and tomato</figcaption>
 
-  <a href="recipes/eggplant"><img src="img/cilbir.png" style="width:100%"></a>
+  <a href="recipes/eggplant" class="dev-recipe">
+    <img src="img/cilbir.png" class="in-development" style="width:100%">
+    <span class="development-label">working on it :)</span>
+  </a>
   <figcaption class="figure-caption text-center">cilbir
     (tastes better than it looks in this pic!)</figcaption>
   <!-- add new items here -->

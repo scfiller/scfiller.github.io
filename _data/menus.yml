@@ -13,8 +13,8 @@
 - title: 'home'
   url: ''
 
-- title: 'about'
-  url: 'about'
+# - title: 'about'
+#  url: 'about'
 
 - title: 'bookshelf'
   url: 'bookshelf'
@@ -24,6 +24,12 @@
 
 - title: 'cooking'
   url: 'cooking'
+
+- title: 'cool stuff'
+  url: 'cool-stuff'
+
+- title: 'short stories i like'
+  url: 'short-stories-i-like'
 
 # - title: 'diy'
 #  url: 'diy'
