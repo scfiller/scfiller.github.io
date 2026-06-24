@@ -3,7 +3,7 @@
     "title": "The Technology Trap: Capital, Labor, and Power in the Age of Automation",
     "author": "Carl Benedikt Frey",
     "genre": "economics & finance",
-    "favorite": true,
+    "favorite": false,
     "img": "/bookshelf/covers/rec16RcGIt1Pr5jKN.png"
   },
   {
@@ -326,7 +326,7 @@
     "author": "Arkady Strugatsky",
     "genre": "science fiction",
     "favorite": true,
-    "img": "/bookshelf/covers/recrALcf7kkcePJa0.jpg"
+    "img": "/bookshelf/covers/recrALcf7kkcePJa0.png"
   },
   {
     "title": "Slouching Toward Utopia: An Economic History of the 21st Century",
@@ -350,10 +350,10 @@
     "img": "/bookshelf/covers/recujqj1MBmqvBkLX.png"
   },
   {
-    "title": "A Distant Mirror: The Calamitous 14th Century",
-    "author": "Barbara W. Tuchman",
-    "genre": "nonfiction",
-    "favorite": true,
-    "img": "/bookshelf/covers/recv3GNhtoY3alQwi.png"
+    "title": "Blindsight",
+    "author": "Peter Watts",
+    "genre": "science fiction",
+    "favorite": false,
+    "img": "/bookshelf/covers/reczd92w0apoDvx1Z.png"
   }
 ]
