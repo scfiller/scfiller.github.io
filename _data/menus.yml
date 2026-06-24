@@ -25,11 +25,11 @@
 - title: 'cooking'
   url: 'cooking'
 
-- title: 'cool stuff'
-  url: 'cool-stuff'
+# - title: 'cool stuff'
+#   url: 'cool-stuff'
 
-- title: 'short stories i like'
-  url: 'short-stories-i-like'
+# - title: 'short stories i like'
+#   url: 'short-stories-i-like'
 
 # - title: 'diy'
 #  url: 'diy'
