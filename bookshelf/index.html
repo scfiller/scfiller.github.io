@@ -5,12 +5,43 @@ permalink: /bookshelf/
 ---
 <style>
 .container-main { width: 100%; min-height: calc(100vh - 159px); }
-h2 { text-align: center; }
-.book-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
-.book-cover { width: 100%; margin-top: 12px; display: block; }
-figcaption { text-align: center; font-size: 0.82em; line-height: 1.4; margin-bottom: 20px; }
-figcaption small { color: #888; }
-.genre-section { margin-top: 40px; }
+
+h2 { margin-top: 2em; margin-bottom: 0.4em; }
+
+.book-list { list-style: none; padding: 0; margin: 0; }
+
+.book-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 6px 0;
+}
+
+.book-thumb {
+  width: 36px;
+  height: auto;
+  flex-shrink: 0;
+  display: block;
+}
+
+.book-thumb-placeholder {
+  width: 36px;
+  height: 48px;
+  flex-shrink: 0;
+  background: #f0f0f0;
+}
+
+.book-title {
+  font-size: 0.9em;
+  line-height: 1.3;
+}
+
+.book-author {
+  font-size: 0.82em;
+  color: #888;
+}
+
+.genre-section { margin-top: 2em; }
 </style>
 
 {% assign genre_list = "fiction,science fiction,nonfiction,philosophy,economics & finance,cookbooks,parenting" | split: "," %}
@@ -18,35 +49,47 @@ figcaption small { color: #888; }
 {% if site.data.books.size > 0 %}
 
   {% assign fav_books = site.data.books | where_exp: "b", "b.favorite" %}
-  {% assign favorites = fav_books | where_exp: "b", "b.img" %}
-  {% if favorites.size > 0 %}
-  <div style="margin-top: 20px;">
+  {% if fav_books.size > 0 %}
+  <div class="genre-section">
     <h2>favorites</h2>
-    <div class="book-grid">
-      {% for book in favorites %}
-        <div>
-          <img src="{{ book.img }}" alt="{{ book.title | escape }}" class="book-cover" loading="lazy">
-          <figcaption>{{ book.title }}<br><small>{{ book.author }}</small></figcaption>
-        </div>
+    <ul class="book-list">
+      {% for book in fav_books %}
+        <li class="book-row">
+          {% if book.img %}
+            <img src="{{ book.img }}" alt="{{ book.title | escape }}" class="book-thumb">
+          {% else %}
+            <div class="book-thumb-placeholder"></div>
+          {% endif %}
+          <div>
+            <div class="book-title">{{ book.title }}</div>
+            <div class="book-author">{{ book.author }}</div>
+          </div>
+        </li>
       {% endfor %}
-    </div>
+    </ul>
   </div>
   {% endif %}
 
   {% for genre in genre_list %}
-    {% assign all_genre = site.data.books | where: "genre", genre %}
-    {% assign genre_books = all_genre | where_exp: "b", "b.img" %}
+    {% assign genre_books = site.data.books | where: "genre", genre | where_exp: "b", "b.favorite != true" %}
     {% if genre_books.size > 0 %}
     <div class="genre-section">
       <h2>{{ genre }}</h2>
-      <div class="book-grid">
+      <ul class="book-list">
         {% for book in genre_books %}
-          <div>
-            <img src="{{ book.img }}" alt="{{ book.title | escape }}" class="book-cover" loading="lazy">
-            <figcaption>{{ book.title }}<br><small>{{ book.author }}</small></figcaption>
-          </div>
+          <li class="book-row">
+            {% if book.img %}
+              <img src="{{ book.img }}" alt="{{ book.title | escape }}" class="book-thumb">
+            {% else %}
+              <div class="book-thumb-placeholder"></div>
+            {% endif %}
+            <div>
+              <div class="book-title">{{ book.title }}</div>
+              <div class="book-author">{{ book.author }}</div>
+            </div>
+          </li>
         {% endfor %}
-      </div>
+      </ul>
     </div>
     {% endif %}
   {% endfor %}
