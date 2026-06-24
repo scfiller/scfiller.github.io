@@ -1,10 +1,13 @@
 #! /bin/bash
 
+# -- Fetch latest books from Airtable (requires AIRTABLE_KEY env var)
+python3 fetch_books.py
+
 # -- Build with baseurl, '/ntest'
-# bundle exec jekyll build --baseurl '/ntest' 
+# bundle exec jekyll build --baseurl '/ntest'
 
 # -- Build with no baseurl
-bundle exec jekyll build 
+bundle exec jekyll build
 
 # -- Get rid of any existing local gh-pages
 git branch -D gh-pages

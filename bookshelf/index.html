@@ -1,0 +1,54 @@
+---
+title: "bookshelf"
+layout: default
+permalink: /bookshelf/
+---
+<style>
+.container-main { width: 100%; min-height: calc(100vh - 159px); }
+h2 { text-align: center; }
+.book-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.book-cover { width: 100%; margin-top: 12px; display: block; }
+figcaption { text-align: center; font-size: 0.82em; line-height: 1.4; margin-bottom: 20px; }
+figcaption small { color: #888; }
+.genre-section { margin-top: 40px; }
+</style>
+
+{% assign genre_list = "fiction,science fiction,nonfiction,philosophy,economics & finance,cookbooks,parenting" | split: "," %}
+
+{% if site.data.books.size > 0 %}
+
+  {% assign fav_books = site.data.books | where_exp: "b", "b.favorite" %}
+  {% assign favorites = fav_books | where_exp: "b", "b.img" %}
+  {% if favorites.size > 0 %}
+  <div style="margin-top: 20px;">
+    <h2>favorites</h2>
+    <div class="book-grid">
+      {% for book in favorites %}
+        <div>
+          <img src="{{ book.img }}" alt="{{ book.title | escape }}" class="book-cover" loading="lazy">
+          <figcaption>{{ book.title }}<br><small>{{ book.author }}</small></figcaption>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  {% for genre in genre_list %}
+    {% assign all_genre = site.data.books | where: "genre", genre %}
+    {% assign genre_books = all_genre | where_exp: "b", "b.img" %}
+    {% if genre_books.size > 0 %}
+    <div class="genre-section">
+      <h2>{{ genre }}</h2>
+      <div class="book-grid">
+        {% for book in genre_books %}
+          <div>
+            <img src="{{ book.img }}" alt="{{ book.title | escape }}" class="book-cover" loading="lazy">
+            <figcaption>{{ book.title }}<br><small>{{ book.author }}</small></figcaption>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+  {% endfor %}
+
+{% endif %}
