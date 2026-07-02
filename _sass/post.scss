@@ -8,6 +8,25 @@
        line-height: 0.784; }
 .post-content p {
   line-height: 20px;
+  margin-bottom: 16px;
+}
+
+.post-content ol,
+.post-content ul {
+  width: 55%;
+  font-size: 1rem;
+  margin: 16px 0 16px 24px;
+}
+
+.post-content li {
+  line-height: 20px;
+}
+
+@media screen and (max-width: 760px) {
+  .post-content ol,
+  .post-content ul {
+    width: 90%;
+  }
 }
 
 .post-content img {
